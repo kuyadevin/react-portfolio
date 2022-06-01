@@ -1,6 +1,7 @@
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
 
       <div>
         <AboutMe />
+      </div>
+      <div>
+        <Portfolio />
       </div>
 
       <div>
