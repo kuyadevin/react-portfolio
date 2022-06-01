@@ -1,5 +1,6 @@
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
         <Navigation />
       </div>
 
+      <div>
+        <AboutMe />
+      </div>
 
       <div>
         <Footer />
