@@ -1,9 +1,17 @@
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-      <Navigation />
+      <div>
+        <Navigation />
+      </div>
+
+
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
