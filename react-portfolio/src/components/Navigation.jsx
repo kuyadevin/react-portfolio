@@ -23,7 +23,7 @@ const Navigation = () => {
 
         {/*Hamburger */}
         <div onClick={handleClick} className='md:hidden z-10'>
-          <FaBars />
+          {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
         {/*Mobile*/}
