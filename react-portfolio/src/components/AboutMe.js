@@ -1,13 +1,13 @@
 import React from 'react';
 import { IoIosArrowRoundForward } from 'react-icons/io';
-import { Devin } from '../assets/devin.png';
+import Devin from '../assets/devin.png';
 
 const AboutMe = () => {
   return (
     <div className='w-full h-screen bg-[#556b2f]'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-white font-serif  grid-cols-2'>
         <div>
-          <img src='../assets/devin.png' alt='DevinN' style={{ width: '200px' }} />
+          <img src={Devin} alt='DevinN' style={{ width: '200px' }} />
         </div>
         <div>
           <p className='text-lg sm:text-2xl text-[#673147]'>Hello! My name is</p>
