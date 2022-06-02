@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className='w-full h-screen bg-[#556b2f]'>
       <div className='flex flex-col justify-center items-center w-full h-full text-white font-serif'>
-        <form action="" className='flex flex-col max-w-[600px] w-full'>
+        <form method='POST' action="https://getform.io/f/708df2c7-c650-4847-9754-eae01561f5e2" className='flex flex-col max-w-[600px] w-full'>
           <div>
             <h1 className='text-4xl font-bold inline border-b-4 border-[#673147]'>Contact</h1>
             <p className='py-4'>Submit the form below to send me a meesage or e-mail me at devinnguyen@ucsb.edu</p>
