@@ -11,7 +11,7 @@ function Portfolio() {
   return (
     <div className='w-full h-screen bg-[#556b2f]'>
       <div className='flex flex-col justify-center items-center w-full h-full text-white font-serif'>
-        <h1 className='text-4xl'>Portfolio</h1>
+        <h1 className='text-4xl font-bold inline border-b-4 border-[#673147] mb-4'>Portfolio</h1>
         <div className='max-w-[1000px] w-full grid grid-cols-2 sm:grid-cols-3 gap-10 justify-center items-center text-center text-sm'>
           <div>
             <a href='https://kuyadevin.github.io/Day-Planner/'>
