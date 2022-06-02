@@ -11,11 +11,11 @@ function Portfolio() {
   return (
     <div className='w-full h-screen bg-[#556b2f]'>
       <div className='flex flex-col justify-center items-center w-full h-full text-white font-serif'>
-        <h1 className='text-4xl font-bold inline border-b-4 border-[#673147] mb-4'>Portfolio</h1>
+        <h1 className='text-2xl font-bold inline border-b-4 border-[#673147] mb-2'>Portfolio</h1>
         <div className='max-w-[1000px] w-full grid grid-cols-2 sm:grid-cols-3 gap-10 justify-center items-center text-center text-sm'>
           <div>
             <a href='https://kuyadevin.github.io/Day-Planner/'>
-              <img src={Workday} alt='Workday Scheduler' style={{ width: '500px' }} />
+              <img src={Workday} alt='Workday Scheduler' style={{ width: '500px', height: '150px' }} />
             </a>
             <h5 className='text-[#673147] text-base'>Work Day Scheduler</h5>
             <p>An app that lets you plan our a workday, showing what hours have pasted and which haven't.</p>
