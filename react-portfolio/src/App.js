@@ -8,17 +8,11 @@ function App() {
     <div>
       <div>
         <Navigation />
-      </div>
-
-      <div>
         <AboutMe />
-      </div>
-      <div>
         <Portfolio />
-      </div>
-
-      <div>
         <Footer />
+      </div>
+      <div>
       </div>
     </div>
   );
