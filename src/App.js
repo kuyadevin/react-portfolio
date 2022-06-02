@@ -1,4 +1,4 @@
-import Navigation from "./components/Navigation";
+import Navigation from "./components/Navigation"
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Navigation />
       <Routes>
-        <Route exact path='/' element={<AboutMe />} />
+        <Route exact path='/react-portfolio' element={<AboutMe />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/resume' element={<Resume />} />

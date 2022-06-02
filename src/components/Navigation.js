@@ -17,7 +17,7 @@ const Navigation = () => {
       {/*navbar */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to='/'>
+          <Link to='/react-portfolio'>
             About Me
           </Link>
         </li>
