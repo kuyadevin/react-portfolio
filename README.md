@@ -2,7 +2,7 @@
 
 ## Deployed Link
 
-[Devin's Portfolio](https://kuyadevin.github.io/my-portfolio-may-2022/)
+[Devin's Portfolio](https://kuyadevin.github.io/react-portfolio)
 
 ## Technologies Used
 
