@@ -4,21 +4,19 @@ import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
-    <div>
-      <div>
-        <Navigation />
-        <AboutMe />
-        <Portfolio />
-        <Contact />
-        <Resume />
-        <Footer />
-      </div>
-      <div>
-      </div>
-    </div>
+    <Router>
+      <Navigation />
+      <Routes>
+        <Route exact path='/' element={<AboutMe />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/resume' element={<Resume />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
