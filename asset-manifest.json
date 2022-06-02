@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.ce225abc.css",
+    "main.js": "/react-portfolio/static/js/main.e21de2f8.js",
+    "static/media/travelCenter.png": "/react-portfolio/static/media/travelCenter.0d4a13c549cdbf0cf9ef.png",
+    "static/media/ecommerce.png": "/react-portfolio/static/media/ecommerce.6fe7b5aeffd5ba48e605.png",
+    "static/media/devin.png": "/react-portfolio/static/media/devin.bd9bb1e9d0192bd3844b.png",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.73f89aab25304e673131.pdf",
+    "static/media/socialmedia.png": "/react-portfolio/static/media/socialmedia.f5248c536ba314b3ac24.png",
+    "static/media/MiseEnPlace.png": "/react-portfolio/static/media/MiseEnPlace.c41e34278ee714da2cd6.png",
+    "static/media/Devin Nguyen-logos_transparent.png": "/react-portfolio/static/media/Devin Nguyen-logos_transparent.ab94891d9e1036680a80.png",
+    "static/media/workday.png": "/react-portfolio/static/media/workday.15e62732ea4daa4e6373.png",
+    "static/media/ems.png": "/react-portfolio/static/media/ems.ad41ab5198a16e9735f7.png",
+    "static/media/github.png": "/react-portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.ce225abc.css.map": "/react-portfolio/static/css/main.ce225abc.css.map",
+    "main.e21de2f8.js.map": "/react-portfolio/static/js/main.e21de2f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce225abc.css",
+    "static/js/main.e21de2f8.js"
+  ]
+}
