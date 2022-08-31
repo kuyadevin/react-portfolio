@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../assets/Devin Nguyen-logos_transparent.png';
 import { Link } from 'react-router-dom';
 
+
 const Navigation = () => {
   // eslint-disable-next-line no-unused-vars
   const [nav, setNav] = useState(false)

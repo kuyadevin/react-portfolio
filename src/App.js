@@ -1,5 +1,4 @@
 import Navigation from "./components/Navigation"
-import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
@@ -15,7 +14,6 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/resume' element={<Resume />} />
       </Routes>
-      <Footer />
     </Router>
   );
 }
