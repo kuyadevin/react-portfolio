@@ -1,5 +1,5 @@
 import React from 'react';
-import Workday from '../assets/workday.png';
+import Weather from '../assets/weatherdash.png';
 import GitHub from '../assets/github.png';
 import MiseEnPlace from '../assets/MiseEnPlace.png';
 import TravelCenter from '../assets/travelCenter.png';
@@ -10,16 +10,18 @@ import LinkedIn from '../assets/LI-In-Bug.png';
 
 function Portfolio() {
   return (
+    // Nav
+
     <div className='w-full h-screen bg-[#556b2f] pb-20 bg-repeat'>
       <div className='flex flex-col justify-center items-center w-full h-full text-white font-serif'>
-        <h1 className='text-2xl font-bold inline border-b-4 border-[#673147] mb-2'>Portfolio</h1>
+        <h1 className='text-2xl font-bold inline border-b-4 border-[#673147] mb-2 relative'>Portfolio</h1>
         <div className='max-w-[1000px] max-h-[550px] w-full grid grid-cols-1 sm:grid-cols-3 gap-10 justify-center items-center text-center text-sm sm:pb-20'>
           <div className='bg-[#556b2f]'>
-            <a href='https://kuyadevin.github.io/Day-Planner/'>
-              <img src={Workday} alt='Workday Scheduler' style={{ width: '500px', height: '150px' }} />
+            <a href='https://kuyadevin.github.io/weather-dashboard/'>
+              <img src={Weather} alt='Workday Scheduler' style={{ width: '500px', height: '150px' }} />
             </a>
-            <h5 className='text-[#673147] text-base'>Work Day Scheduler</h5>
-            <p>An app that lets you plan our a workday, showing what hours have pasted and which haven't.</p>
+            <h5 className='text-[#673147] text-base'>Weather Dashboard</h5>
+            <p>An app that gives you weather information about your current location.</p>
             <a className="inline-block" href='https://github.com/kuyadevin/Day-Planner'>
               <img src={GitHub} alt='GitHub' style={{ width: '30px' }} />
             </a>
