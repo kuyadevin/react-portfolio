@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Navigation />
       <Routes>
-        <Route exact path='/react-portfolio' element={<AboutMe />} />
+        <Route exact path='/' element={<AboutMe />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/resume' element={<Resume />} />
